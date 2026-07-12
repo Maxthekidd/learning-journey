@@ -1,0 +1,2 @@
+# linux-notes
+I've recently started actually learning how linux works, primarily through literary works like 'The Linux Command Line' and 'How Linux Works And What Every Superuser Should Know'
