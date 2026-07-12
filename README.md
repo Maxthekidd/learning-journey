@@ -1,2 +1,2 @@
-# linux-notes
+# learning-journey
 
