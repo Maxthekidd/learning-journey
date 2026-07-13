@@ -12,7 +12,7 @@ It manages tasks in four general system areas
  - It is responsible for context switching (multitasking)
  - Creating time slices for user processes to utilize the CPU
 this is important because it tells us WHEN the kernel runs, which is between the time slices, the CPU switches in and out of kernel mode between the time slices
-the kernel is responsible for capturing the state of user processes (in bits) and storing this data at the end of each time slice
+the kernel is responsible for capturing the state of user processes (in bits) and storing this data whenever it peforms a context switch
 
 ## Memory Management
  - The kernel must have its own private memory (this is presumably also where it stores process states)
@@ -27,3 +27,4 @@ VIRTUAL MEMORY?
 
 ## System Calls & Support
  - sorry what now?
+The official way a user program asks the kernel to do something privileged.
