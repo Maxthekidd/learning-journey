@@ -1,11 +1,11 @@
 ## Navigation of File Sytems
 Commands
-pwd - to print current working directory
-cd (x) - to change directory to the directory of choice
-ls - to list the contents of current working directory or any other directory as specified
+ - pwd - to print current working directory
+ - cd (x) - to change directory to the directory of choice
+ - ls - to list the contents of current working directory or any other directory as specified
 
-file - determining the file type
-less - to view file contents (less = more!)
+ - file - determining the file type
+ - less - to view file contents (less = more!)
 
 ASCII format = basically what I have known as txt files, these are pure text files 
 
@@ -15,7 +15,7 @@ e.g - ls /usr/bin ~
 
 ## Manipulating Files and Directories
 Commands
-cp - Copy files & directories
-mv - move files & directories
-rm - remove files & directories
-ln - create hard & symboliic links
+ - cp - Copy files & directories
+ - mv - move files & directories
+ - rm - remove files & directories
+ - ln - create hard & symboliic links
