@@ -1,4 +1,4 @@
-## Levels and layers of abstraction in a linux system
+# Levels and layers of abstraction in a linux system
 The user processes - The kernel - The hardware
 
 The kernel is the core of the  Operating System (OS), it resides in the memory and acts as a bridge between user processes and the hardware
@@ -8,22 +8,22 @@ It manages tasks in four general system areas
 - Device drivers
 - Systems calls & support
 
-# Process Management
+## Process Management
  - It is responsible for context switching (multitasking)
  - Creating time slices for user processes to utilize the CPU
 this is important because it tells us WHEN the kernel runs, which is between the time slices, the CPU switches in and out of kernel mode between the time slices
 the kernel is responsible for capturing the state of user processes (in bits) and storing this data at the end of each time slice
 
-# Memory Management
+## Memory Management
  - The kernel must have its own private memory (this is presumably also where it stores process states)
  - All running user processes must also be allocated private memory by the kernel (so that no user process may accidentally or maliciously interfere with the operation of another)
  - Memory may be shared by user processes (facilitated by the kernel)
 
 VIRTUAL MEMORY? 
 
-# Device Drivers & Management
+## Device Drivers & Management
  - A device is only accessible in kernel mode (I presume this means that only inbetween time slices -i.e when the CPU is in kernel mode, may the kernel send and recieve data to and from devices, this only makes sense as user processes have no direct access to hardware)
    DOES THIS MEAN THAT THE KERNEL CAN ACTUALLY MULTITASK? because in a fraction of a second it has to facilitate process management, memory management & othe operation of device drivers, or is it just one task between each time slices -this feels more sensible but then again rather slow, given the large volume of functions-
 
-# System Calls & Support
+## System Calls & Support
  - sorry what now?
