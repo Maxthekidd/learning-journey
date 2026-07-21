@@ -28,3 +28,25 @@ VIRTUAL MEMORY?
 ## System Calls & Support
  - sorry what now?
 The official way a user program asks the kernel to do something privileged.
+ - usually something the process either cannot or would rather not do
+
+### Two Very Important System Calls
+fork() - the kernel creates an almost identical copy of the usser process
+exec() - when the process calls exec(program), the kernel loads and starts the program, replacing the process itself
+
+## Pseudodevices
+User process level programs act like hardware devices
+my favourite pseudodevice is /dev/random, I am fascinated by how it utilizes the entropy from the real world to create true disorder and randomness, something that computers are, on their own (as I understand them) incapable of doing
+
+## User Space
+Userland where user processes run
+
+## Users
+A user is an entity that can run processes and own files
+they could be known by a username, e.g lordkiller83 (me), but the kernel uses simple numeric identifiers called UserIDs instead
+A linux system often has more than one user
+Every process has an owner, and such an owner may terminate or otherwise modify their processes, but may not do the same to the processes of other users
+The exception to this rule is the root, the SUPERUSER (#)
+
+Groups are a set of users, main purpose is file sharing (users can control who can read (r), write (w) or execute (x) their files)
+
