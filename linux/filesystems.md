@@ -19,3 +19,5 @@ Commands
  - mv - move files & directories
  - rm - remove files & directories
  - ln - create hard & symboliic links
+ - mkdir - create new directory
+ - rmdir remove directory
