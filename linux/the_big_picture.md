@@ -32,8 +32,8 @@ The official way a user program asks the kernel to do something privileged.
  - usually something the process either cannot or would rather not do
 
 ### Two Very Important System Calls
-fork() - the kernel creates an almost identical copy of the usser process
-exec() - when the process calls exec(program), the kernel loads and starts the program, replacing the process itself
+- fork() - the kernel creates an almost identical copy of the usser process
+- exec() - when the process calls exec(program), the kernel loads and starts the program, replacing the process itself
 
 ## Pseudodevices
 User process level programs act like hardware devices
