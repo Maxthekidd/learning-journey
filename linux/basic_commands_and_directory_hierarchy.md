@@ -61,7 +61,7 @@ When splitting data streams, all three data streams have corresponding integers.
 - 1 - Standard input (implied)
 - 2 - Standard error
 
-$ find /etc -type f 1> ~/result.txt 2> ~/error.txt (splits the data streams and sends standard input to the result.txt file in the home directory and the standard error to the error.txt file in the same directory.
+$ find /etc -type f 1> ~/result.txt 2> ~/error.txt (splits the data streams and sends standard input to the result.txt file in the home directory and the standard error to the error.txt file in the same directory).
 
 rmdir - command fails if the directory in question is empty, however you can use recursive delete ($ rm -r dir), very dangerous command especially if executed with root privileges e.g sudo, be very careful!
 
