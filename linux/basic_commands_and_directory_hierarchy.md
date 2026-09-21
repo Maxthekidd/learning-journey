@@ -76,7 +76,7 @@ This is when the shell matches simple patterns to file and directory names
     - 
 - ? - another prominent globbing character, this one matches exactly one arbitrary character
     - $ echo b?at - matches boat and brat.
-    - 
+
 If you do not want the shell to expand a character into a glob, enclose it in single quotes '*' - '?'
 
 NOTE: The shell peforms expansion before running the command
