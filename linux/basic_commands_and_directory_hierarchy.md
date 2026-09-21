@@ -73,7 +73,7 @@ This is when the shell matches simple patterns to file and directory names
     - $ echo *at - matches everything ending with 'at' - cat, bat, sat.
     - $ echo at* - matches everything beginning with 'at'  - atleast, attribute, athletle.
     - $ echo *at* - matches everything containing 'at' - palate, atleast, cat, attribute, bat, athlete, sat.
-    - 
+   
 - ? - another prominent globbing character, this one matches exactly one arbitrary character
     - $ echo b?at - matches boat and brat.
 
