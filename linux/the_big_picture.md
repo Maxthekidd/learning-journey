@@ -40,6 +40,9 @@ The official way a user program asks the kernel to do something privileged.
 User process level programs that behave like hardware devices
 my favourite pseudodevice is /dev/random, I am fascinated by how it utilizes the entropy from the real world to create true disorder and randomness, something that computers are, on their own (as I understand them) incapable of doing.
 
+### Examples
+/dev/random.
+
 ### Why do they exist?
 They have a broad variety of essential utilities, such as the aforementioned random found in the /dev directory.
 
