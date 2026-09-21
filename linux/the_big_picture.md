@@ -36,11 +36,35 @@ The official way a user program asks the kernel to do something privileged.
 - exec() - when the process calls exec(program), the kernel loads and starts the program, replacing the process itself
 
 ## Pseudodevices
-User process level programs act like hardware devices
+### What they are
+User process level programs that behave like hardware devices
 my favourite pseudodevice is /dev/random, I am fascinated by how it utilizes the entropy from the real world to create true disorder and randomness, something that computers are, on their own (as I understand them) incapable of doing
 
+### Why do they exist?
+They have a broad variety of essential utilities, such as the aforementioned random found in the /dev directories
+
+### Questions I Still Have
+How many of these devices exist in a standard linux system
+
+### Things that surprised me
+The extent to which computers go in order to generate randomness. But this is completely understandable from a security standpoint
+
 ## User Space
-Userland where user processes run
+What is it?
+Basically userland where user processes run. It includes everything that the user interacts with on a day-to-day basis
+
+### Why does it exist?
+It exists so that the user can be able to use the operating system
+
+### Example
+An example of this is the bourne again shell (bash) and all the programs associated therewith
+
+### Questions I still have
+Does userspace also include the other directories that the user can access or is it just limited to the home directory where such a user is the judge, jury and executioner. Which begs another question, if the former is the case, then is the whole system superuser (#) space?
+
+### Things that surprised me
+The fact that a single system can have up to multiple users
+
 
 ## Users
 A user is an entity that can run processes and own files
