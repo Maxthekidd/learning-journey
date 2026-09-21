@@ -1,4 +1,5 @@
-# Levels and layers of abstraction in a linux system
+# The Big Picture
+## Levels and layers of abstraction in a linux system
 The user processes - The kernel - The hardware
 
 The kernel is the core of the  Operating System (OS), it resides in the memory and acts as a bridge between user processes and the hardware
