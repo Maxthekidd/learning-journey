@@ -68,13 +68,13 @@ rmdir - command fails if the directory in question is empty, however you can use
 ## Shell Globbing
 This is when the shell matches simple patterns to file and directory names
 
-- * - an example of a globbing character, it matches any number of arbitrary characters
+- '*' - an example of a globbing character, it matches any number of arbitrary characters
     - $ echo * - matches everything
     - $ echo *at - matches everything ending with 'at' - cat, bat, sat.
     - $ echo at* - matches everything beginning with 'at'  - atleast, attribute, athletle.
     - $ echo *at* - matches everything containing 'at' - palate, atleast, cat, attribute, bat, athlete, sat.
    
-- ? - another prominent globbing character, this one matches exactly one arbitrary character
+- '?' - another prominent globbing character, this one matches exactly one arbitrary character
     - $ echo b?at - matches boat and brat.
 
 If you do not want the shell to expand a character into a glob, enclose it in single quotes '*' - '?'
