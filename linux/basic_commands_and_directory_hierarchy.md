@@ -41,15 +41,12 @@ Commands
  - rmdir remove directory
 
 ## Standard Input & Output
-### What it is
 Unix processes use Input/Output streams to read and write data. Processes read data from input streams and write data to output streams.
 standard input - stin
 standard output - stdout
-### Why does it exist
-The avenues of utility for this honestly suprised me, it can be used to split data streams (e.g seperating standard output from standard error)
-### Examples
-Typing commands into the shell is a good example of the shell acting as an input stream, recieving confirmation that the command has been executed successfully from the shell is a good example of the shell behaving as an output stream
-### Questions I still have
-.
-### Things that suprised me
-The existence of a third data stream (standard error - stderr) as a seperate stream from standard output
+
+The avenues of utility for this honestly suprised me, it can be used to split data streams (e.g seperating standard output from standard error).
+
+Typing commands into the shell is a good example of the shell acting as an input stream, recieving confirmation that the command has been executed successfully from the shell is a good example of the shell behaving as an output stream.
+
+The existence of a third data stream (standard error - stderr) as a seperate stream from standard output did surprise me.
